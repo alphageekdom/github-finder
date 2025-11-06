@@ -32,6 +32,16 @@ h1 {
   color: #222;
 }
 
+/* App title */
+.app-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #000;
+}
+
 /* Form */
 .form {
   position: relative;
