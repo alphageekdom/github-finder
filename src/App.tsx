@@ -1,5 +1,6 @@
 import { FaGithub } from 'react-icons/fa';
 import UserSearch from './components/UserSearch';
+import { Toaster } from 'sonner';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <FaGithub /> GitHub Finder
       </h1>
       <UserSearch />
+      <Toaster />
     </div>
   );
 }
